@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gulp: Fish Roguelite — CyberRoar</title>
+<meta name="description" content="Gulp: Fish Roguelite: a fish-eat-fish roguelite by CyberRoar for Android. No ads, no purchases, plays offline.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #f6f4ee;
+    --text: #17262a;
+    --dim: #4b5d61;
+    --accent: #0f7f78;
+    --card: #ffffff;
+    --rule: #d8d3c6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #071a1f;
+      --text: #f2ebdc;
+      --dim: #b0c4c0;
+      --accent: #5ef2e3;
+      --card: #0d262d;
+      --rule: #1f3d44;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    padding: 2rem 1rem 3rem;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  main {
+    max-width: 44rem;
+    margin: 0 auto;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 14px;
+    padding: 1.5rem 1.25rem 2rem;
+  }
+  h1 { font-size: 1.8rem; line-height: 1.25; margin: 0 0 0.25rem; }
+  h2 { font-size: 1.2rem; margin: 2rem 0 0.5rem; padding-top: 1rem; border-top: 1px solid var(--rule); }
+  p, li { margin: 0.5rem 0; }
+  ul { padding-left: 1.25rem; }
+  .updated { color: var(--dim); margin-bottom: 1.5rem; }
+  .summary { border-left: 4px solid var(--accent); padding: 0.25rem 0 0.25rem 1rem; }
+  a { color: var(--accent); }
+  em { font-style: normal; font-weight: 600; }
+  @media (min-width: 40rem) { main { padding: 2rem 2.5rem 2.5rem; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gulp: Fish Roguelite</h1>
+  <p class="updated">A game by <strong>CyberRoar</strong> for Android, in testing on Google Play.</p>
+  <p class="summary">You begin as food. You end as the thing everything else fears.</p>
+  <p>Eat what is smaller, flee what is bigger and grow until the food chain turns. No ads, no purchases, no account, and it plays offline.</p>
+  <h2>Legal</h2>
+  <p><a href="privacy/">Privacy policy</a></p>
+  <h2>Contact</h2>
+  <p><a href="https://github.com/FaEight/gulp-site/issues">open an issue on GitHub</a></p>
+</main>
+</body>
+</html>
